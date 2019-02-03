@@ -15,7 +15,6 @@ Dialog::Dialog(QWidget *parent) :
     arduino_port_name = "";
     arduinoPort = new QSerialPort;
 
-
 //    // Setelah di dapet vendor id dan product id nya, ini boleh di comment
 //    qDebug() << "number of available ports" << QSerialPortInfo::availablePorts().length();
 //    foreach(const QSerialPortInfo &serialPortInfo, QSerialPortInfo::availablePorts()) {
