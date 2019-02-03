@@ -16,7 +16,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
   if(Serial.available()) {
     char pilih_led = Serial.read();
     int kecerahan_led = Serial.parseInt();
